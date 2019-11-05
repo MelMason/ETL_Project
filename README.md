@@ -45,7 +45,7 @@ https://coinmetrics.io/data-downloads
 7. Tested the Table contents using sql query
 
 # Team Members 
-##Melissa Mason, Emi Babu, Dan Dragone & Malini Murthy
+## Melissa Mason, Emi Babu, Dan Dragone & Malini Murthy
 
   
 
