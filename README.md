@@ -4,6 +4,8 @@
 Cryptocurrencies can be sent directly between two parties via the use of private and public keys.  These transfers can be done with minimal processing fees, allowing users to avoid the steep fees charged by traditional financial institutions**
 
 
+*** Project Scope ***
+
 1. First Line
 - Second Line
 - thridline
