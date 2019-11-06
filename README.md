@@ -22,12 +22,12 @@ Time Frame : 07-01-2017 to 06-30-2019
 - NEO
 
 
-# Sources
+# Data Sources
 https://min-api.cryptocompare.com/documentation?key=Historical&cat=dataSymbolHistoday
 
 https://coinmetrics.io/data-downloads
 
-# Steps Taken
+# Data Extraction and Transformation
 
 1. Accessed data from Cryptocompare through API and retrieved  
     - Exchange Volume and
@@ -39,10 +39,18 @@ https://coinmetrics.io/data-downloads
     - Using Market Cap and Price to compute Market Supply 
     - Market Supply(No.of coins) = Market Cap in USD / Price in USD 
 3. Merge the cleaned files with data from CryptoCompare
-4. Loaded the Data into Postgres
-5. Created Tables for each cryptocurreny and Master tables by Price and Exchange Volume
-6. Created a Table for DateTime Id to reference within each of the cryptocurrency table
-7. Tested the Table contents using sql query
+
+# Data Loading 
+
+1. Postgress database is selected since an open-source relational database was preferred
+2. SQLAlchemy is used as the ORM for Python to communicate with the database. Once the SQLAlchemy connection is established, the MYSQL tables were  populated using the ‘to_sql’ method and read using the ‘read_sql_query’ method
+3.Created Tables for each cryptocurreny and Master tables by Price and Exchange Volume
+4. Created a Table for DateTime Id to reference within each of the cryptocurrency table
+5. Tested the Table contents using sql query
+
+# Process to Execute/Details of Files 
+
+1. 
 
 # Team Members 
 ## Melissa Mason, Emi Babu, Dan Dragone & Malini Murthy
