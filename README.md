@@ -43,11 +43,10 @@ https://coinmetrics.io/data-downloads
 # Data Loading 
 
 1. Postgress database is selected since an open-source relational database was preferred
-2. SQLAlchemy is used as the ORM for Python to communicate with the database. Once the SQLAlchemy connection is established, the MYSQL 
-   tables were  populated using the ‘to_sql’ method and read using the ‘read_sql_query’ method
-3. Created Tables for each cryptocurreny and Master tables by Price and Exchange Volume
-4. Created a Table for DateTime Id to reference within each of the cryptocurrency table
-5. Tested the Table contents using sql query
+2. Created Tables for each cryptocurreny and Master tables by Price and Exchange Volume
+3. Created a Table for DateTime Id to reference within each of the cryptocurrency table
+4. Tested the Table contents using sql query
+5. Merged contents of Data retrieved from Crypto Compare and Coinmetrics
 
 # ERD Diagram
 ![Capture.PNG](Capture.PNG)
