@@ -50,7 +50,7 @@ https://coinmetrics.io/data-downloads
 5. Tested the Table contents using sql query
 
 # ERD Diagram
-Capture.jpg
+![Capture.jpg](capture.jpg)
 
 
 # Team Members 
