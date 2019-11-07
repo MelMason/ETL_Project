@@ -7,8 +7,9 @@ Cryptocurrencies can be sent directly between two parties via the use of private
 # Project Scope
 
 To extract available trading data on Top 10 Cryptocurrencies from two different scources, perform data wrangling, merge the datasets. Load into the Database and create Tables for each Cryptocurrency. 
-## Time Frame : 07-01-2017 to 06-30-2019
-## Top 10 currencies identified by Market Trend
+Time Frame : 07-01-2017 to 06-30-2019
+
+Top 10 currencies identified by Market Trend
 - Ethereum (ETH)
 - Litecoin (LTC)
 - Bitcoin (BTC)
