@@ -48,7 +48,7 @@ https://coinmetrics.io/
 4. Tested the Table contents using sql query
 5. Merged contents of Data retrieved from Crypto Compare and Coinmetrics
 
-## select total_ex_vol."BCH" as "Exchange Volume", final_price."BCH" as "Price (USD)", bch."Date", bch."Market Cap (USD)", bch."Number of Coins"
+select total_ex_vol."BCH" as "Exchange Volume", final_price."BCH" as "Price (USD)", bch."Date", bch."Market Cap (USD)", bch."Number of Coins"
 from total_ex_vol
 join final_price on total_ex_vol."Date" = final_price."Date"
 join bch on final_price."Date" = bch."Date";
