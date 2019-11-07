@@ -10,26 +10,27 @@ To extract available trading data on Top 10 Cryptocurrencies from two different 
 Time Frame : 07-01-2017 to 06-30-2019
 
 ## Top 10 currencies by Market Trend
-- Ethereum
-- Litecoin
-- Bitcoin
-- Stellar Lumens
-- EOS
-- Cardano
-- Tron
-- Bitcoin Cash
-- Binance Coin
-- NEO
+- Ethereum (ETH)
+- Litecoin (LTC)
+- Bitcoin (BTC)
+- Stellar Lumens (XLM)
+- EOS (EOS)
+- Cardano (ADA)
+- Tron (TRX)
+- Bitcoin Cash (BCH)
+- Binance Coin (BNB)
+- NEO (NEO)
 
 
 # Data Sources
-https://min-api.cryptocompare.com/documentation?key=Historical&cat=dataSymbolHistoday
+https://www.cryptocompare.com
 
-https://coinmetrics.io/data-downloads
+https://coinmetrics.io
 
 # Data Extraction and Transformation
 
 1. Accessed data from Cryptocompare through API and retrieved  
+   https://min-api.cryptocompare.com/documentation?key=Historical&cat=dataSymbolHistoday
     - Exchange Volume and
     - Pricing
 2. Downloaded Data on all 10 Currencies from coinmetrics as individual csv. Data Exploratory Analysis involves 
@@ -48,9 +49,6 @@ https://coinmetrics.io/data-downloads
 4. Created a Table for DateTime Id to reference within each of the cryptocurrency table
 5. Tested the Table contents using sql query
 
-## Table of Contents
-
-1. 
 
 # Team Members 
 ## Melissa Mason, Emi Babu, Dan Dragone & Malini Murthy
