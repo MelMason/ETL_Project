@@ -1,1 +1,1 @@
-api_key = "7your API here"
+api_key = "Your API here"
