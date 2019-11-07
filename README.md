@@ -65,5 +65,5 @@ join bch on final_price."Date" = bch."Date";
 # Team Members 
 ## Melissa Mason, Emi Babu, Dan Dragone & Malini Murthy
 
-  
+ 
 
