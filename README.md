@@ -23,13 +23,14 @@ Time Frame : 07-01-2017 to 06-30-2019
 
 
 # Data Sources
-https://min-api.cryptocompare.com/documentation?key=Historical&cat=dataSymbolHistoday
+https://www.cryptocompare.com/
 
-https://coinmetrics.io/data-downloads
+https://coinmetrics.io/
 
 # Data Extraction and Transformation
 
 1. Accessed data from Cryptocompare through API and retrieved  
+   https://min-api.cryptocompare.com/documentation?key=Historical&cat=dataSymbolHistoday
     - Exchange Volume and
     - Pricing
 2. Downloaded Data on all 10 Currencies from coinmetrics as individual csv. Data Exploratory Analysis involves 
@@ -47,6 +48,11 @@ https://coinmetrics.io/data-downloads
 3. Created a Table for DateTime Id to reference within each of the cryptocurrency table
 4. Tested the Table contents using sql query
 5. Merged contents of Data retrieved from Crypto Compare and Coinmetrics
+
+## select total_ex_vol."BCH" as "Exchange Volume", final_price."BCH" as "Price (USD)", bch."Date", bch."Market Cap (USD)", bch."Number of Coins"
+from total_ex_vol
+join final_price on total_ex_vol."Date" = final_price."Date"
+join bch on final_price."Date" = bch."Date";
 
 # ERD Diagram
 ![Capture.PNG](Capture.PNG)
