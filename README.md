@@ -62,7 +62,6 @@ join bch on final_price."Date" = bch."Date";
 -- Jupyter Notebooks -> execute all the files
 - Run the Schema.sql and SQL_query.sql files
 
-
 # Team Members 
 ## Melissa Mason, Emi Babu, Dan Dragone & Malini Murthy
 
