@@ -8,6 +8,7 @@ Cryptocurrencies can be sent directly between two parties via the use of private
 
 To extract available trading data on Top 10 Cryptocurrencies from two different scources, perform data wrangling, merge the datasets. Load into the Database and create Tables for each Cryptocurrency. 
 Time Frame : 07-01-2017 to 06-30-2019
+Main Goal is to provide a user Datasets on Individual Currency such that any comparisons could be made between currencies for further analysis.
 
 Top 10 currencies identified by Market Trend
 - Ethereum (ETH)
@@ -63,6 +64,14 @@ join bch on final_price."Date" = bch."Date";
 -- Jupyter Notebooks -> execute all the files
 - Run the Schema.sql and SQL_query.sql files
 
+# Challenges 
+1. Understanding the concept of 'Digital Currency' and how they function & some financial key terminologies
+2. Deciding between MongoDb or Postgres
+3. Finding the common key between the two data sources since most data was textual based. Hence, we had to use Date and since the
+   formats were different in each resource, we created a DateID Field
+4. Identifying Data type for Market Cap, Price since we tried Float and Double, but until we used Double Precision, importing the csv's 
+   was not working
+   
 # Team Members 
 ## Melissa Mason, Emi Babu, Dan Dragone & Malini Murthy
 
