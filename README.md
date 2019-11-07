@@ -49,6 +49,10 @@ https://coinmetrics.io/data-downloads
 4. Created a Table for DateTime Id to reference within each of the cryptocurrency table
 5. Tested the Table contents using sql query
 
+# ERD Diagram
+Capture.jpg
+
+
 # Team Members 
 ## Melissa Mason, Emi Babu, Dan Dragone & Malini Murthy
 
