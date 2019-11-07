@@ -56,6 +56,12 @@ join bch on final_price."Date" = bch."Date";
 # ERD Diagram
 ![Capture.PNG](Capture.PNG)
 
+# Table of Contents (Steps to Follow)
+- Open the Code Folder 
+-- CryptoCompare -> execute Price_API & Exchange_Vol_API jupyter notebook
+-- Jupyter Notebooks -> execute all the files
+- Run the Schema.sql and SQL_query.sql files
+
 
 # Team Members 
 ## Melissa Mason, Emi Babu, Dan Dragone & Malini Murthy
